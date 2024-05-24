@@ -1,0 +1,21 @@
+name: Update GitHub Profile
+
+on:
+  schedule:
+    - cron: '0 12 * * *'  # Her gün GMT 12:00'da çalıştır
+  workflow_dispatch:
+
+jobs:
+  update_profile:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Commit and push changes
+      run: |
+        git config --global user.name 'jstrieb/github-stats'
+        git config --global user.email 'github-stats[bot]@jstrieb.github.io'
+        git add .
+        git commit -m "Update README" || true
+        git push
