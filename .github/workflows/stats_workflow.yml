@@ -17,5 +17,5 @@ jobs:
         git config --global user.name 'jstrieb/github-stats'
         git config --global user.email 'github-stats[bot]@jstrieb.github.io'
         git add .
-        git commit -m "Update README" || true
+        git commit -m "Update README" || exit 0
         git push
