@@ -2,7 +2,7 @@
 
 Aşağıda benim GitHub istatistiklerim yer almakta:
 
-[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Muhammetcansimsek&show_icons=true)]
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Muhammetcansimsek&show_icons=true)
 
 <h3 align="left">Languages and Tools:</h3>
 <p align="left"> 
